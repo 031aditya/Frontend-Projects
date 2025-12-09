@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#circle{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    position: absolute;
+    z-index: 99999;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.8;
+}
+
+
+#main {
+    width: 100%;
+    /* color: #fff; */
+}
+
+#hero {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+nav {
+    /* color: #fff; */
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#heading {
+    margin-top: 20px;
+}
+
+#heading h1 {
+    margin-left: 40px;
+    opacity: 0.6;
+    line-height: 1;
+    font-size: 9vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#heading #secheading {
+    text-transform: uppercase;
+    width: fit-content;
+    margin-left: 170px;
+    text-align: right;
+}
+
+#subhead {
+    width: 100%;
+    font-size: 0.5vw;
+    text-align: right;
+    padding-top: 10vw;
+    padding-right: 2vw;
+    text-transform: uppercase;
+}
+
+#herofooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.6vw;
+}
+
+#herofooter #xdiv {
+    width: 250px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 2px;
+}
+
+#herofooter #xdiv i {
+    font-size: 2vw;
+    align-self: top;
+}
+
+#herofooter a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+#herofooter #iconset {
+    display: flex;
+    gap: 0.5vw;
+}
+
+#herofooter .circle {
+    height: 25px;
+    width: 25px;
+    background-color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#herofooter .circle i {
+    font-size: 1vw;
+    font-weight: 700;
+    color: black;
+}
+
+
+
+
+
+
+
+#sec2 {
+        /* height: 100vh; */
+        width: 90%;
+        /* background-color: red; */
+        color: #888;
+        padding-top: 150px;
+        padding-left: 2.5vw;
+        padding-right: 10vw;
+}
+
+.elem {
+    position: relative;
+    padding: 2vw 1vw;
+    /* padding: 3.5vw 3vw; */
+    width:100%;
+    border-top: 1px solid #888;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;       
+}
+
+.elem h1 {
+    font-size: 7vw;
+    text-transform: uppercase;
+}
+
+.elem img {
+    opacity: 0  ;
+    height: 100%;
+    /* width: 20vw; */
+    position: absolute;
+    pointer-events: none;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#sec2 .elemsec {
+    border-bottom: 1px solid #888;
+}
+
+.btn2 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1vw;
+    font-weight: 300;
+    border: 2px solid #888;
+    border-radius: 20px;
+    padding: 7px 25px;
+}
+
+#sec2 #btn {
+    padding-top: 4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#about{
+    /* height: 90vh; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    padding: 10vw 15VW;
+    padding-left: 35vw;
+}
+
+#about img{
+    width: 200px;
+}
+
+#about #textabout h5{
+    color: #888;
+}
+
+#about #textabout{
+    line-height: 25px;
+}
+
+#div2{
+    padding-top: 4vw;
+}
+
+
+
+
+ #foottext{
+    padding: 4vw 2vw;
+    text-transform: uppercase;
+}
+ #foottext h5{
+    color: #888;
+}
+
+#footcontent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 8vw; 
+    /* padding-top: 10%; */
+}
+
+#footcontent #left{
+    display: flex;
+    gap: 1vw;
+}
+#footcontent #right{
+    display: flex;
+    font-size: 1vw;
+    gap: 3vw;
+    text-transform: uppercase;
+}
+#footcontent #right a{
+    color: #fff;
+    text-decoration: none;            
+}
+
